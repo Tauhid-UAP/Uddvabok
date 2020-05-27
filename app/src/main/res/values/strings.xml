@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Uddvabok</string>
+    <string name="intro_first_line">"There Is No Finish Online"</string>
+    <string name="intro_secound_line">Absolutely. Positively. Perfect.</string>
+    <string name="btn_login">User Login Here </string>
+    <string name="btn_user_signup">New User ? Registration here </string>
+    <string name="btn_become_seller">Become a Seller ! </string>
+</resources>
