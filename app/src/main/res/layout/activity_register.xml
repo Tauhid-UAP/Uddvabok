@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -31,92 +31,219 @@
             android:textStyle="bold"
             android:layout_marginBottom="5dp"/>
 
-        <LinearLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:weightSum="2"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content">
 
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/f_name"
-            android:inputType="textPersonName"
-            android:hint="@string/first_name"
-            android:textColor="@color/colorYellow"
-            android:textColorHint="@color/colorYellow"
-            android:layout_weight="1"
-
-            />
-
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/l_name"
-            android:inputType="textPersonName"
-            android:hint="@string/last_name"
-            android:textColor="@color/colorYellow"
-            android:textSize="22sp"
-            android:layout_weight="1"
-            android:textColorHint="@color/colorYellow"
-
-            />
-
-        </LinearLayout>
-
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/email"
-            android:inputType="textEmailAddress"
-            android:hint="@string/email_address"
-            android:textColor="@color/colorYellow"
-            android:textSize="22sp"
-            android:textColorHint="@color/colorYellow"
-
-            />
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:weightSum="2"
-            android:orientation="horizontal">
-            <EditText
-                android:layout_width="wrap_content"
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/psw"
-                android:inputType="numberPassword"
-                android:hint="@string/password"
+                android:hint="Company Name"
+                android:inputType="text"
+                android:textColor="@color/colorYellow"
+                android:textSize="22sp"
+                android:layout_weight="1"
+                android:textColorHint="@color/colorYellow"
+                android:id="@+id/companyNameEditText"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:weightSum="2"-->
+<!--            android:orientation="horizontal">-->
+
+
+<!--        <EditText-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/f_name"-->
+<!--            android:inputType="textPersonName"-->
+<!--            android:hint="@string/first_name"-->
+<!--            android:textColor="@color/colorYellow"-->
+<!--            android:textColorHint="@color/colorYellow"-->
+<!--            android:layout_weight="1"-->
+
+<!--            />-->
+
+
+<!--        <EditText-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/l_name"-->
+<!--            android:inputType="textPersonName"-->
+<!--            android:hint="@string/last_name"-->
+<!--            android:textColor="@color/colorYellow"-->
+<!--            android:textSize="22sp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:textColorHint="@color/colorYellow"-->
+
+<!--            />-->
+
+<!--        </LinearLayout>-->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorYellow"
+                android:textSize="22sp"
+                android:layout_weight="1"
+                android:textColorHint="@color/colorYellow"
+                android:id="@+id/nameEditText"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+<!--        <EditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/email"-->
+<!--            android:inputType="textEmailAddress"-->
+<!--            android:hint="@string/email_address"-->
+<!--            android:textColor="@color/colorYellow"-->
+<!--            android:textSize="22sp"-->
+<!--            android:textColorHint="@color/colorYellow"-->
+
+<!--            />-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email Address"
+                android:textColor="@color/colorYellow"
+                android:inputType="textEmailAddress"
+                android:textSize="22sp"
+                android:textColorHint="@color/colorYellow"
+                android:id="@+id/emailAddressEditText"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:weightSum="2"-->
+<!--            android:orientation="vertical">-->
+<!--            <EditText-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/psw"-->
+<!--                android:inputType="numberPassword"-->
+<!--                android:hint="@string/password"-->
+<!--                android:textColor="@color/colorYellow"-->
+<!--                android:textColorHint="@color/colorYellow"-->
+<!--                android:layout_weight="1"-->
+
+<!--                />-->
+<!--            <EditText-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/confirm_psw"-->
+<!--                android:inputType="numberPassword"-->
+<!--                android:hint="@string/confirm_password"-->
+<!--                android:textColor="@color/colorYellow"-->
+<!--                android:textColorHint="@color/colorYellow"-->
+<!--                android:layout_weight="1"-->
+
+<!--                />-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberPassword"
+                    android:hint="@string/password"
+                    android:textColor="@color/colorYellow"
+                    android:textColorHint="@color/colorYellow"
+                    android:layout_weight="1"
+                    android:id="@+id/passwordEditText"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberPassword"
+                    android:hint="@string/confirm_password"
+                    android:textColor="@color/colorYellow"
+                    android:textColorHint="@color/colorYellow"
+                    android:layout_weight="1"
+                    android:id="@+id/confirmPasswordEditText"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+<!--        </LinearLayout>-->
+
+<!--        <EditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/contact"-->
+<!--            android:inputType="phone"-->
+<!--            android:hint="@string/contact_number"-->
+<!--            android:textColor="@color/colorYellow"-->
+<!--            android:textColorHint="@color/colorYellow"-->
+<!--             />-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:hint="@string/contact_number"
                 android:textColor="@color/colorYellow"
                 android:textColorHint="@color/colorYellow"
-                android:layout_weight="1"
-
+                android:id="@+id/contactEditText"
                 />
-            <EditText
-                android:layout_width="wrap_content"
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/confirm_psw"
-                android:inputType="numberPassword"
-                android:hint="@string/confirm_password"
+                android:hint="Address"
+                android:inputType="textPostalAddress"
                 android:textColor="@color/colorYellow"
                 android:textColorHint="@color/colorYellow"
-                android:layout_weight="1"
-
+                android:id="@+id/addressEditText"
                 />
-        </LinearLayout>
 
-        <EditText
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/contact"
-            android:inputType="phone"
-            android:hint="@string/contact_number"
-            android:textColor="@color/colorYellow"
-            android:textColorHint="@color/colorYellow"
-             />
+            android:layout_height="wrap_content">
 
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:inputType="text"
+                android:textColor="@color/colorYellow"
+                android:textColorHint="@color/colorYellow"
+                android:id="@+id/usernameEditText"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
         <Button
             android:id="@+id/btn_register_regi"
             android:layout_width="match_parent"
@@ -158,4 +285,4 @@
 
     </LinearLayout>
 
-</LinearLayout>
+</ScrollView>
