@@ -1,4 +1,4 @@
-package com.uddvabok.uddvodokecomarce;
+package com.uddvabok.uddvabok;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.uddvabok.uddvabok.R;
 
 public class LoginActivity extends AppCompatActivity {
     private TextView signup_login;
@@ -21,7 +23,7 @@ public class LoginActivity extends AppCompatActivity {
         signup_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LoginActivity.this, RegiActivity.class);
+                Intent intent = new Intent(LoginActivity.this, com.uddvabok.uddvabok.RegiActivity.class);
                 startActivity(intent);
             }
         });
