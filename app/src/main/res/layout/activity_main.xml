@@ -16,18 +16,17 @@
             android:layout_height="wrap_content"
             android:src="@drawable/logo"
             android:layout_gravity="center"
-            android:layout_marginTop="10sp"
+
             />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/intro_first_line"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
-            android:textAllCaps="true"
-            android:textColor="@color/colorDarkRed"
-            android:textSize="22sp"
-            android:layout_marginTop="30sp"/>
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/intro_first_line"
+         android:layout_marginLeft="10dp"
+         android:textAllCaps="true"
+         android:textColor="@color/colorDarkRed"
+         android:textSize="22sp"
+         android:layout_marginTop="5sp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -35,15 +34,15 @@
             android:textSize="20sp"
             android:textColor="@color/colorRed"
             android:textAllCaps="true"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="5dp"
             />
 
         <Button
-            android:id="@+id/btnuser"
+            android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/btnloginbg"
-            android:layout_marginTop="40sp"
+            android:layout_marginTop="30sp"
             android:text="@string/btn_login"
             android:textSize="22sp"
             android:textColor="@color/colorWhite"
@@ -51,26 +50,27 @@
 
             />
         <Button
-            android:id="@+id/btnsignup"
+            android:id="@+id/btn_signup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/btnsignupbg"
             android:text="@string/btn_user_signup"
-            android:textSize="22sp"
+            android:textSize="18sp"
             android:textColor="@color/colorWhite"
             android:layout_marginTop="10sp"
-
-
             />
-        <Button
-            android:id="@+id/seller"
+        <TextView
+            android:id="@+id/btn_seller"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/btnseller"
             android:layout_marginTop="10sp"
             android:text="@string/btn_become_seller"
             android:textSize="22sp"
-            android:textColor="@color/colorWhite"
+            android:paddingLeft="60dp"
+            android:textStyle="bold"
+            android:textColorLink="@color/colorYellow"
+            android:textAllCaps="true"
+            android:textColor="@color/colorRed"
 
 
             />
