@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "189395951057",
+    "firebase_url": "https://uddvadokecomarce.firebaseio.com",
+    "project_id": "uddvadokecomarce",
+    "storage_bucket": "uddvadokecomarce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189395951057:android:75dd2e8cb4dec2d3aa14f0",
+        "android_client_info": {
+          "package_name": "com.uddvabok.uddvabok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189395951057-usuf1aqllk6pi5ber59mjprholfajb7s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMu9FBbNKmEt-wc8Wm2zdoz8MVDpee9jk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189395951057-usuf1aqllk6pi5ber59mjprholfajb7s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
