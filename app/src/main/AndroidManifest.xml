@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.uddvabok.uddvabok">
-    <uses-sdk android:minSdkVersion="16" />
-    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -12,6 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".DashboardActivity"></activity>
         <activity android:name=".RegiActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
@@ -22,5 +21,9 @@
             </intent-filter>
         </activity>
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
 
 </manifest>

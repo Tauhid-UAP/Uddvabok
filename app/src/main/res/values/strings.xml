@@ -16,7 +16,7 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="contact_number">Contact Number </string>
     <string name="btn_register">Register  </string>
-    <string name="already_account" > Already Have Account ! Login Now  </string>
+    <string name="already_account"> Already Have Account ! Login Now  </string>
 
 
 </resources>

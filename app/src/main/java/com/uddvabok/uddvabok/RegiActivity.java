@@ -41,7 +41,7 @@ public class RegiActivity extends AppCompatActivity {
 
         fAuth=FirebaseAuth.getInstance();
         if (fAuth.getCurrentUser()!=null){
-            startActivity(new Intent(getApplicationContext(),MainActivity.class));
+            startActivity(new Intent(getApplicationContext(),RegiActivity.class));
             finish();
         }
 
@@ -101,13 +101,13 @@ public class RegiActivity extends AppCompatActivity {
                     u_usernane.setError("User Name   is Required");
                     return;
                 }
-
+                //FIrebase Database Authintication user  create
                 fAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(RegiActivity.this,"User Created ",Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                            startActivity(new Intent(getApplicationContext(),RegiActivity.class));
                         }
                         else{
                             Toast.makeText(RegiActivity.this," Error ! ! "+task.getException().getMessage(),Toast.LENGTH_SHORT).show();
